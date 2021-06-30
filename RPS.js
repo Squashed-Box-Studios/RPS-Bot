@@ -12,6 +12,7 @@ var draws = 0;
 var loses = 0;
 var games = 0;
 
+
 function choose(choice){
     if (nonreset == 0){
         document.getElementById("playerchoice").innerHTML = "You chose " + choice;

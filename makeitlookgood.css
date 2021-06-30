@@ -18,3 +18,49 @@ img {
     margin-left: 110px;
     z-index: 99999;
 }
+#rock:hover{
+    color: #919191;
+    animation-name: z;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes z{
+    from {padding-right: 0px;}
+    to {padding-right: 1200px;}
+}
+#paper:hover{
+    color: #919191;
+    animation-name: z;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+#scissors:hover{
+    color: #919191;
+    animation-name: z;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+#goagain{
+    border-radius: 5px;
+    border-width: 0;
+    background-color: #5f5f5f;
+    color: #FFF;
+}
+#goagain:hover{
+    background-color: #cfcfcf;
+    color: #000;
+}
+#Choicetxt {
+    position:fixed;
+    top: 92px;
+}
+#title{
+    animation-name: title;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    padding: 0;
+}
+@keyframes title{
+    33%{margin-left: 200px; margin-right: 0;}
+    66%{margin-right: 200px; margin-left: 0;}
+}
